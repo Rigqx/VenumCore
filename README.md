@@ -5,6 +5,7 @@ The project was originally made for [MCUdvikling](https://MCUdvikling.dk) to be 
 ## Authors
 
 - [@Rigqx](https://www.github.com/Rigqx)
+- [MCUdvikling](https://MCUdvikling.dk)
 
 ## License
 MIT License
