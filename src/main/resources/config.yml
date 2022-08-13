@@ -1,0 +1,106 @@
+#
+#  ┬  ┬┬┌─┐┌┬┐┬┌─┐┌┬┐
+#  └┐┌┘││ ┬ │ ││ ┬ │
+#   └┘ ┴└─┘ ┴ ┴└─┘ ┴
+#
+# » HVIS DU FÅR FEJL, SÅ TJEK AT ALT I KONFIGGURATIONEN ER OPSAT RIGTIGT!
+# » ALLE STEDER HVOR DER ER '' SKAL DER VÆRE NOGET INDEN IMELLEM '' ALTSÅ 'TEKST'
+#
+# » Kontakt Rigqx#9999, hvis du har brug for yderligere hjælp.
+#
+
+# Din Plugin-Licens
+Licens: ''
+
+AntiCrash:
+  toggled: true
+
+Join:
+  prefix: '§8§l| §3§lVENUM§f§lMC §8§l|'
+  # Placeholders:
+  # - <prefix> - Serverns prefix.
+  # - <count> - Antal der er joinet serveren.
+  # - <player> - Spillerens navn.
+  messages:
+    - ''
+    - '<prefix>'
+    - ''
+    - '§8§l• §fSpilleren §b<player> §fEr lige joinet serveren!'
+    - '§8§l• §fDu er nummer §b<count> §fjoinet spiller!'
+    - ''
+
+Core:
+  # Core prefix
+  prefix: '§8§l| §3§lVENUM §f§lCORE §8§l|'
+  Ingen-adgang: '§8§l| §4§lFEJL §8§l| §fDu har ikke adgang til denne kommando..!'
+
+Vanish:
+  # Default vanish prefix
+  prefix: '§8§l| §9§lVANISH §8§l|'
+  toggled-on: '§7Vanish er nu slået §a§lTIL§7!'
+  toggled-off: '§7Vanish er nu slået §c§lFRA§7!'
+
+Nightvision:
+  # Default nightvision prefix
+  prefix: '§8§l| §9§lNATTESYN §8§l|'
+  # Beskeder
+  toggled-on: '§7Nattesyn er nu slået §a§lTIL§7!'
+  toggled-off: '§7Nattesyn er nu slået §c§lFRA§7!'
+
+Fly:
+  # Default fly prefix
+  prefix: '§8§l| §d§lFLY §8§l|'
+  # Beskeder
+  toggled-on: '§7Flyve-tilstand er nu slået §a§lTIL§7!'
+  toggled-off: '§7Flyve-tilstand er nu slået §c§lFRA§7!'
+
+Clearinv:
+  # Default clear inventory prefix
+  prefix: '§8§l| §5§lCLEAR §f§lINVENTORY §8§l|'
+  # Første farve
+  mainColor: '§f'
+  # Anden farve
+  secondaryColor: '§b'
+
+Teleport:
+  # Permission
+  permission: 'Staff.use'
+
+Ontime:
+  # Prefix
+  prefix: '§8§l| §3§lVENUM§f§lMC §8§l|'
+
+Broadcast:
+  # Default broadcast prefix
+  prefix: '§8§l| §b§lBROADCAST §8§l|'
+  # Default besked farve
+  message-color: '§f'
+  # LAYOUTS
+  #
+  # Layout 1: (DIT PREFIX) (DIN BESKED)
+  #
+  # Layout 2:
+  # (DIT PREFIX)
+  # (DIT PREFIX) (DIN BESKED)
+  # (DIT PREFIX)
+  #
+  # Layout 3:
+  # (DIT PREFIX)
+  # (DIN BESKED)
+  #
+  # Layout 4:
+  # (DIT PREFIX)
+  #
+  # (DIN BESKED)
+  #
+  layout: 1
+
+# Scoreboardet er ikke i brug, da dette er en feature der kommer MEGET snart!
+Scoreboard:
+  # Titel:
+  title: '§3§lMCUdvikling'
+  # Linjer (Skriv hvad der skal stå på scoreboarded)
+  lines:
+    - ''
+    - '§bKøbt fra MCUdvikling.dk'
+    - ''

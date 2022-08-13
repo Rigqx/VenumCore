@@ -1,0 +1,51 @@
+name: VenumMC-Core
+version: '1.3.2'
+main: dk.venummc.venumcore.VenumCore
+authors: [ Rigqx ]
+description: Et premium all-in-one plugin! :)
+website: VenumMC.dk
+softdepend: []
+commands:
+  venumcore:
+    aliases:
+      - vc
+    description: VenumCore command
+    usage: /<command>
+  broadcast:
+    aliases:
+      - bc
+    description: Broadcast command
+    usage: /<command>
+  nv:
+    aliases:
+      - nattesyn
+      - ns
+      - nightvision
+    description: Nattesyn command
+    usage: /<command>
+  ci:
+    aliases:
+      - clearinv
+      - clearinventory
+    description: Clear Inventory Command
+    usage: /<command>
+  fly:
+    aliases:
+      - flight
+    description: Fly Command
+    usage: /<command>
+  vanish:
+    aliases:
+      - v
+    description: Vanish Command
+    usage: /<command>
+  teleport:
+    aliases:
+      - tp
+    description: Teleport Command
+    usage: /<command>
+  ontime:
+    aliases:
+      - playtime
+    description: Ontime Command
+    usage: /<command>
