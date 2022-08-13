@@ -22,11 +22,6 @@ public final class VenumCore extends JavaPlugin {
         instance = this;
 
         Logger.getLogger("Initializing..");
-
-        Logger.getLogger("Checking license..");
-        if(!new Licens(getConfig().getString("Licens"), "https://mcudvikling.dk/licens/verify.php", this).setConsoleLog(Licens.LogType.NORMAL).register())
-            return;
-
         Logger.getLogger("Checking Dependencies..");
         // Check Dependencies Method
         Logger.getLogger("Dependencies is valid..");
