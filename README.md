@@ -1,6 +1,6 @@
 # VenumCore - Open Source
 This is my old paid plugin. It got some cool features and alot of customizability. I've chosen to publish the source code to it, so everyone can use it for free, and work further on it!
-The project was originally made for [MCUdvikling](https://MCUdvikling.dk) to be sold.
+The project was originally made for [MCUdvikling](https://MCUdvikling.dk) to be sold, to server owners who needs a cheap but professional and optimized solution.
 
 ## Authors
 
